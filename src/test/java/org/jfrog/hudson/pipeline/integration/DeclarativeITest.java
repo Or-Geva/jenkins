@@ -56,10 +56,10 @@ public class DeclarativeITest extends CommonITestsPipeline {
         super.uploadTest("declarative:platform upload test", null, "uploadUsingPlatformConfig");
     }
 
-    @Test
-    public void uploadUsingProjectTest() throws Exception {
-        super.uploadTest("declarative:project upload test", "jit", "uploadWithProject");
-    }
+    // @Test
+    // public void uploadUsingProjectTest() throws Exception {
+    //     super.uploadTest("declarative:project upload test", "jit", "uploadWithProject");
+    // }
 
     @Test
     public void uploadWithPropsTest() throws Exception {
@@ -221,10 +221,10 @@ public class DeclarativeITest extends CommonITestsPipeline {
         super.rbCreateDistDel("declarative:createDistributeDelete");
     }
 
-    @Test
-    public void buildInfoProjects() throws Exception {
-        super.buildInfoProjects("declarative:buildInfoProjects");
-    }
+    // @Test
+    // public void buildInfoProjects() throws Exception {
+    //     super.buildInfoProjects("declarative:buildInfoProjects");
+    // }
 
     @Test
     public void buildRetention() throws Exception {

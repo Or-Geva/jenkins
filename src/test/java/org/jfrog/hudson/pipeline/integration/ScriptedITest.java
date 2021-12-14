@@ -76,10 +76,10 @@ public class ScriptedITest extends CommonITestsPipeline {
         super.uploadTest("scripted:platform upload test", null, "uploadUsingPlatformConfig");
     }
 
-    @Test
-    public void uploadWithProjectTest() throws Exception {
-        super.uploadTest("scripted:project upload test", "jit", "uploadWithProject");
-    }
+    // @Test
+    // public void uploadWithProjectTest() throws Exception {
+    //     super.uploadTest("scripted:project upload test", "jit", "uploadWithProject");
+    // }
 
     @Test
     public void uploadWithPropsTest() throws Exception {
@@ -236,10 +236,10 @@ public class ScriptedITest extends CommonITestsPipeline {
         super.rbCreateDistDel("scripted:createDistributeDelete");
     }
 
-    @Test
-    public void buildInfoProjects() throws Exception {
-        super.buildInfoProjects("scripted:buildInfoProjects");
-    }
+    // @Test
+    // public void buildInfoProjects() throws Exception {
+    //     super.buildInfoProjects("scripted:buildInfoProjects");
+    // }
 
     @Test
     public void buildRetention() throws Exception {
